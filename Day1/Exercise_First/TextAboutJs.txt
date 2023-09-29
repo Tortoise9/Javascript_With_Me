@@ -1,0 +1,25 @@
+Different framework of js :
+1. Angular js
+2. React js
+3. Vue.js
+4. Node.js
+5. Ember.js
+6. mithril
+7. polymer
+8. Aurelia 
+etc
+
+where Node.js is used backend which is server-side javascript run-time enviroment 
+used to create backend  application
+
+Other things : 
+
+React Native   and ionic is used to create a native mobile application
+
+Electorn is used to create native desktop application 
+
+
+
+
+
+
