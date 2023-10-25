@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id ="one"></p>
+    <script>
+        let letter =prompt("Enter the characters :");
+        const max = 280;
+        let one = document.querySelector("#one");
+        console.log("hai")
+        if(letter.length >280){
+            one.innerHTML = "max limit exceeds"
+        }
+        else{
+            let one = `${letter.length} is length and left ${max-letter.length}`
+            one.innerHTML = document.write(one);
+        }
+    </script>
+</body>
+</html>

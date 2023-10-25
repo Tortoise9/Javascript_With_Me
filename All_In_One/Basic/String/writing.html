@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            text-align: center;
+        }
+        textarea[name="writeme"]{
+            font-size: larger;
+        }
+        #status{
+            font-size: small;
+        }
+    </style>
+</head>
+<body>
+    <textarea name="writeme" id="comment" cols="100" rows="20"  >write</textarea>
+    <p id="status"></p>
+
+    <script >
+        console.log('hai')
+        let commentme = document.querySelector('#comment');
+
+        let kill = commentme.innerText.length ;
+        console.log(kill);
+        if(kill ==0){
+            let status = document.querySelector('#status');
+        let display  = `${kill} written`
+            status.innerHTML= display
+        }
+        else{
+            let status = document.querySelector('#status');
+        let display  = `${kill} written`
+            status.innerHTML= display
+        }
+    </script>
+</body>
+
+</html>
